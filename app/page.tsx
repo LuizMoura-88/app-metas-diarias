@@ -53,7 +53,7 @@ export default async function Home() {
                     <span className="font-sans text-xs text-white text-center">
                       {day}
                     </span>
-                    {/* day state */}
+
                     <DayState day={habitStreak[last7Days[index]]} />
                   </div>
                 ))}
