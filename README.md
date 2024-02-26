@@ -1,78 +1,80 @@
-# [📅 Gerenciador de Hábitos usando Next.js 13](https://codante.io/mini-projetos/gerenciador-de-habitos-nextjs)
 
-Aprenda a usar o poder da versão 13 do Next.js construindo um gerenciador de hábitos!
+## 🖥️ Gerenciador de Hábitos
 
-## 🔨 Requisitos
-- Utilize o Next.js na versão mais atual para construir a estrutura do projeto e gerenciar as rotas da aplicação.
-- Desenvolva a aplicação mobile-first.
+Está aplicação foi idealizada pela escola de tecnologia codante.io, a proposta desta aplicação é oferecer um serviço de gerenciador de hábitos baseando-se em mobile-first, cada hábito cadastro apresenta na tela inicial os últimos 7 dias oferecendo uma análise de como está sendo executado um hábito uma vez implementado. Ao clicar em um hábito especifico, a aplicação oferece a possibilidade de efetuar um checklist de tarefas concluídas ou não em um período mensal. Os dados são persistidos nos Redis da plataforma de desenvolvimento Vercel denominado KV, a posposta do backend desenvolvido para esta aplicação é ter uma arquitetura simples porem bem implementada agregando as funcionalidades que o Next.js e a Vercel oferecem, tornando o código simples e legível.Implementar esse projeto desenvolveu minhas habilidades técnicas (HardKills)   ao manusear as ferramentas Next.js,TypeScript e Tailwind.
 
-### Página inicial
+Recursos oferecidos:
 
-- Implemente a funcionalidade de exibir uma lista de hábitos.
-  - Cada hábito deve mostrar os últimos 7 dias, com um check se o hábito foi feito, um "x" se ele não foi feito ou uma bolinha cinza se ele ainda não foi marcado.
-- Implemente um botão para excluir um hábito na lista de hábitos.
-- Ao clicar em um hábito, você deverá redirecionar para uma nova rota que exibe os detalhes do hábito.
-- Implemente um botão para adicionar hábitos que leva a uma nova página de cadastro de hábito.
-- Exiba uma mensagem quando não houverem hábitos cadastrados
+- Cadastrar hábitos.
+- Excluir hábitos.
+- Gerenciar tarefas realizadas ou não (ChekList).
 
-### Página de cadastro de hábitos
+🌐 [Visitar - WebSite](https://web-site-receitas.vercel.app/)
 
-- Crie um formulário para a pessoa cadastrar o nome do hábito
-- Implemente um botão para submeter
-- Implemente um botão para cancelar o cadastro e voltar para a página inicial.
+##
 
-### Página de detalhes do hábito
+### 📌 Layout do Projeto 
+<img width="2152" alt="processo_2" src="https://github.com/LuizMoura-88/web-site-receitas/assets/122941117/098e4faf-7a8d-4ab2-a75b-4fec483306e8">
 
-- Mostre o nome do hábito e um botão de voltar para a tela inicial
-- Mostre um calendário com os hábitos
-  - A pessoa pode navegar entre os meses e verá, a cada dia do mês, um check se o hábito foi feito, um "x" se ele não foi feito ou uma bolinha cinza se ele ainda não foi marcado.
-  - Quando a pessoa clica em um dia, o hábito deve ser marcado ou desmarcado.
-    
-- Faça o deploy da sua aplicação e submeta no [Codante](https://codante.io/mini-projetos/gerenciador-de-habitos-nextjs)
+##
 
-## 🔨 Desafios extras para quem quer ir além
-- Implemente uma funcionalidade de "streak", ou seja, a quantidade de dias consecutivos que o hábito foi feito.
-- Implemente um login e cadastro de usuários.
+### 📌 Tecnologias Utilizadas      
+#### FRONTEND
+* [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+* [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+* [TYPESCRIPT](https://www.typescriptlang.org/)
+* [REACT](https://pt-br.legacy.reactjs.org/)
+* [VITE](https://vitejs.dev/guide/)
+* [ESLINT](https://eslint.org/)
+#### BACKEND
+* [TYPESCRIPT](https://www.typescriptlang.org/)
+* [EXPRESS](https://axios-http.com/docs/intro)
+* [PRISMA](https://www.prisma.io/)
+* [CORS](https://www.npmjs.com/package/cors)
+* [POSTGRESQL](https://www.elephantsql.com/)
+##
 
-## 🔍 Dicas
-- Simplifique o backend da aplicação. O foco principal é usar o Next no front, então não precisa criar uma API muito robusta. [Uma dica é utilizar o Redis da própria Vercel, que se chama KV.](https://vercel.com/docs/storage/vercel-kv)
-- Estude sobre React 18 e Server Components.
-- Utilize Server Actions
-- Utilize um framework CSS, como Tailwind, para ganhar agilidade na implementação.
+### Como rodar o projeto ✅
+* ##### Faça o download do repositório, copie para uma pasta local, abra esta pasta por uma IDE (Ambiente de Desenvolvimento Integrado) foi utilizado o VSCODE
+```
+1° Copiar link: git@github.com:LuizMoura-88/web-site-receitas.git
+2° Abrir a linha de comando de seu computador local, escolher um diretório e efetuar o git clone:  git clonegit@github.com:LuizMoura-88/web-site-receitas.git
+3° Após efetuar o download do repositório remoto abrir o arquivo em sua IDE (ambiente de desenvolvimento integrado).
+4° Em sua linha de comando efetuar o comando npm run dev
+5° Escolher o link que será gerado automaticamente pelo sistema exemplo: http://localhost:5173/
+```
+##
 
-## 🎨 Design Sugerido
-Temos uma sugestão de design no Figma. Mas sinta-se livre para utilizar a criatividade e fazer o seu próprio design.
+### Como utilizar o serviço ✅
+<details>
+  <summary>Acessar video</summary>
+  https://github.com/LuizMoura-88/web-site-receitas/assets/122941117/8432dbe2-bb27-46cc-b48b-25e09b101515
+</details>
 
-🔗 [Link do Figma](https://www.figma.com/file/suvmja6210ggZOO6Cpehjl/Mini-Projetos---Codante.io?type=design&node-id=1533-149&mode=design&t=tptjmPrWwZzLsv9Z-0)
 
-![Group 20](https://github.com/codante-io/mp-gerenciador-habitos-next/assets/6475893/72c62cf3-f8da-4540-923e-0b064e2e0961)
+##
+
+## 📌 Informações Adicionais
+* Foi utilizado a ferramenta `PRISMA` para efetuar as consultas ao banco de dados `POSTGRESSQL`
+* A prentensão foi integrar uma interface de usuario a uma API que tem a função de disponibilizar dados de uma API de terceiros e persistir essas informações em um banco de dados.
+* iniciativa do projeto tem como origem o seguinte endereço: [🌐](https://www.youtube.com/watch?v=5wwaQ4GiSNU&list=PLpK58zpbuDFn0J5JcAoKwtRcw7XMsEqvf&index=1&t=58s)
+
+##
+
+## ⚠️ Problemas enfrentados
+* Encontrei dificuldade em realizar o deploy da API desta aplicação na plataforma do vercel visto que o vercel é utilizados para aplicaçõe frontend, porem ao pesquisar a documentação do vercel pude encontrar a solução para implmentar o NODE.JS ao Vercel.
+  
+##
+  
+## ⏭️ Próximos passos
+
+* Implementar testes unitários.
+* refatoração de código, baseando-se nos princípios de clean code.
+* implementar nova funcionalidades.
+
+##
 
 
-## 👉🏽 Sobre esse mini-projeto
-### Tecnologias sugeridas
-**NextJS 13**
-
-- `Server Components`
-- `Data fetching`
-- `Server Actions`
-- `Nested layouts`
-- `Routes`
-- `pages.tsx`
-- `layout.tsx`
-- `error.tsx`
-- `loading.tsx`
-- `Vercel KV`
-- `Redis`
-
-### Pré-requisitos
-- `React`
-- `HTML, CSS, JavaScript`
-
-## ❓ FAQ
-### Posso utilizar outros frameworks ou outras versões do Next?
-Esse projeto foi pensado para praticar a versão 13 do NextJS, utilizando React 18 com Server Components. Por isso, a resolução oficial será feita dessa forma.
-
-Sinta-se livre para fazer de outras maneiras, caso você esteja estudando outros conteúdos. Mas considere que a solução oficial poderá não cobrir isso. 
-
-### Posso usar features experimentais do Next?
-Sim. Algumas features ainda estão em alpha e portanto não são recomendadas para uso em produção. Como esse se trata de um projeto para aprendizado, você pode aproveitar para experimentar essas features.
+### ✅  Autor
+Luiz Guilherme da Silva Moura <br/>
+[LinkedIn](https://www.linkedin.com/in/luiz-moura-b60099252/)
