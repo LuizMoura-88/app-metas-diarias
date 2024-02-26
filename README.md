@@ -9,8 +9,6 @@ Recursos oferecidos:
 - Excluir hábitos.
 - Gerenciar tarefas realizadas ou não (ChekList).
 
-🌐 [Visitar - WebSite](https://app-metas-diarias.vercel.app/novo-habito)
-
 ##
 
 ### 📌 Layout do Projeto 
@@ -50,6 +48,10 @@ Recursos oferecidos:
   <summary>Acessar video</summary>
   https://github.com/LuizMoura-88/web-site-receitas/assets/122941117/8432dbe2-bb27-46cc-b48b-25e09b101515
 </details>
+
+##
+
+🌐 [Visitar - WebSite](https://app-metas-diarias.vercel.app/novo-habito)
 
 
 ##
