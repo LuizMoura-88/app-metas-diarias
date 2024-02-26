@@ -66,7 +66,7 @@ Recursos oferecidos:
 ##
 
 ## 📌 Informações Adicionais
-* A prentensão foi integrar aplimentar uma aplicação que utilizando next.js e typescript.
+* A prentensão foi implementar uma aplicação utilizando next.js e typescript.
 * iniciativa do projeto tem como origem o seguinte endereço: [🌐](https://codante.io/mini-projetos/gerenciador-de-habitos-com-nextjs)
 
 ##
