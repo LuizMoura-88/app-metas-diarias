@@ -14,7 +14,7 @@ Recursos oferecidos:
 ##
 
 ### 📌 Layout do Projeto 
-<img width="2152" alt="processo_2" src="https://github.com/LuizMoura-88/web-site-receitas/assets/122941117/098e4faf-7a8d-4ab2-a75b-4fec483306e8">
+<img width="2152" alt="processo_2" src="https://github.com/LuizMoura-88/app-metas-diarias/assets/122941117/118c9e98-8e0b-428e-83e6-36d634888b0c">
 
 ##
 
