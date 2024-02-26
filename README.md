@@ -40,11 +40,11 @@ Recursos oferecidos:
 ### Como rodar o projeto ✅
 * ##### Faça o download do repositório, copie para uma pasta local, abra esta pasta por uma IDE (Ambiente de Desenvolvimento Integrado) foi utilizado o VSCODE
 ```
-1° Copiar link: git@github.com:LuizMoura-88/web-site-receitas.git
-2° Abrir a linha de comando de seu computador local, escolher um diretório e efetuar o git clone:  git clonegit@github.com:LuizMoura-88/web-site-receitas.git
+1° Copiar link: git@github.com:LuizMoura-88/app-metas-diarias.git
+2° Abrir a linha de comando de seu computador local, escolher um diretório e efetuar o git clone:  git clone git@github.com:LuizMoura-88/app-metas-diarias.git
 3° Após efetuar o download do repositório remoto abrir o arquivo em sua IDE (ambiente de desenvolvimento integrado).
 4° Em sua linha de comando efetuar o comando npm run dev
-5° Escolher o link que será gerado automaticamente pelo sistema exemplo: http://localhost:5173/
+5° Escolha e aperte `ctrl+click` o link que será gerado automaticamente pelo sistema exemplo: url: http://localhost:3000
 ```
 ##
 
@@ -62,14 +62,13 @@ Recursos oferecidos:
 ##
 
 ## 📌 Informações Adicionais
-* Foi utilizado a ferramenta `PRISMA` para efetuar as consultas ao banco de dados `POSTGRESSQL`
-* A prentensão foi integrar uma interface de usuario a uma API que tem a função de disponibilizar dados de uma API de terceiros e persistir essas informações em um banco de dados.
-* iniciativa do projeto tem como origem o seguinte endereço: [🌐](https://www.youtube.com/watch?v=5wwaQ4GiSNU&list=PLpK58zpbuDFn0J5JcAoKwtRcw7XMsEqvf&index=1&t=58s)
+* A prentensão foi integrar aplimentar uma aplicação que utilizando next.js e typescript.
+* iniciativa do projeto tem como origem o seguinte endereço: [🌐](https://codante.io/mini-projetos/gerenciador-de-habitos-com-nextjs)
 
 ##
 
 ## ⚠️ Problemas enfrentados
-* Encontrei dificuldade em realizar o deploy da API desta aplicação na plataforma do vercel visto que o vercel é utilizados para aplicaçõe frontend, porem ao pesquisar a documentação do vercel pude encontrar a solução para implmentar o NODE.JS ao Vercel.
+* Encontrei dificuldade em realizar a integração entre next.js e kv/vercel por ser uma tecnologia recente para mim.
   
 ##
   
@@ -77,10 +76,9 @@ Recursos oferecidos:
 
 * Implementar testes unitários.
 * refatoração de código, baseando-se nos princípios de clean code.
-* implementar nova funcionalidades.
+* implementar novas funcionalidades.
 
 ##
-
 
 ### ✅  Autor
 Luiz Guilherme da Silva Moura <br/>
