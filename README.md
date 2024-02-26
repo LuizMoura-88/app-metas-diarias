@@ -51,8 +51,12 @@ Recursos oferecidos:
 ### Como utilizar o serviço ✅
 <details>
   <summary>Acessar video</summary>
-  https://github.com/LuizMoura-88/web-site-receitas/assets/122941117/8432dbe2-bb27-46cc-b48b-25e09b101515
+  https://github.com/LuizMoura-88/app-metas-diarias/assets/122941117/dcddcfc6-8612-417c-bc08-8a216eaec4f6
 </details>
+
+
+
+
 
 ##
 
