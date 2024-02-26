@@ -1,7 +1,7 @@
 
 ## 🖥️ Gerenciador de Hábitos
 
-Está aplicação foi idealizada pela escola de tecnologia codante.io, a proposta desta aplicação é oferecer um serviço de gerenciador de hábitos baseando-se em mobile-first, cada hábito cadastro apresenta na tela inicial os últimos 7 dias oferecendo uma análise de como está sendo executado um hábito uma vez implementado. Ao clicar em um hábito especifico, a aplicação oferece a possibilidade de efetuar um checklist de tarefas concluídas ou não em um período mensal. Os dados são persistidos no KV (Key-Value) da plataforma de desenvolvimento Vercel denominado Redis, a posposta do backend desenvolvido para esta aplicação é ter uma arquitetura simples porem bem implementada agregando as funcionalidades que o Next.js e a Vercel oferecem, tornando o código simples e legível. Implementar esse projeto desenvolveu minhas habilidades técnicas (HardKills)   ao manusear as ferramentas Next.js,TypeScript e Tailwind.
+Está aplicação foi idealizada pela escola de tecnologia [codante.io](https://codante.io/), a proposta desta aplicação é oferecer um serviço de gerenciador de hábitos baseando-se em mobile-first, cada hábito cadastro apresenta na tela inicial os últimos 7 dias oferecendo uma análise de como está sendo executado um hábito uma vez implementado. Ao clicar em um hábito especifico, a aplicação oferece a possibilidade de efetuar um checklist de tarefas concluídas ou não em um período mensal. Os dados são persistidos no KV (Key-Value) da plataforma de desenvolvimento Vercel denominado Redis, a posposta do backend desenvolvido para esta aplicação é ter uma arquitetura simples porem bem implementada agregando as funcionalidades que o Next.js e a Vercel oferecem, tornando o código simples e legível. Implementar esse projeto desenvolveu minhas habilidades técnicas (HardKills)   ao manusear as ferramentas Next.js,TypeScript e Tailwind.
 
 Recursos oferecidos:
 
@@ -17,19 +17,24 @@ Recursos oferecidos:
 ##
 
 ### 📌 Tecnologias Utilizadas      
-#### FRONTEND
-* [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-* [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-* [TYPESCRIPT](https://www.typescriptlang.org/)
-* [REACT](https://pt-br.legacy.reactjs.org/)
-* [VITE](https://vitejs.dev/guide/)
-* [ESLINT](https://eslint.org/)
-#### BACKEND
-* [TYPESCRIPT](https://www.typescriptlang.org/)
-* [EXPRESS](https://axios-http.com/docs/intro)
-* [PRISMA](https://www.prisma.io/)
-* [CORS](https://www.npmjs.com/package/cors)
-* [POSTGRESQL](https://www.elephantsql.com/)
+```
+  "dependencies": {
+    "@types/node": "20.4.2",
+    "@types/react": "18.2.15",
+    "@types/react-dom": "18.2.7",
+    "@vercel/kv": "^0.2.4",
+    "autoprefixer": "10.4.14",
+    "eslint": "8.45.0",
+    "eslint-config-next": "13.4.10",
+    "next": "13.4.10",
+    "postcss": "8.4.26",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.1.6",
+    "vercel": "^33.5.1"
+  }
+```
 ##
 
 ### Como rodar o projeto ✅
